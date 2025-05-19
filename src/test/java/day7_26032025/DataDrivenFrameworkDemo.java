@@ -42,7 +42,7 @@ public class DataDrivenFrameworkDemo {
 			
 			System.out.println("Username-->"+userNM+"                    Password-->"+pass);
 			try {
-			driver.findElement(By.name("usename")).sendKeys(userNM.toString());
+			driver.findElement(By.name("username")).sendKeys(userNM.toString());
 			driver.findElement(By.name("password")).sendKeys(pass.toString());
 			driver.findElement(By.xpath("//button[@type='submit']")).click();
 			driver.findElement(By.className("oxd-dropdown-tab")).click();
